@@ -1,0 +1,11 @@
+read -p "Enter a number : " x
+echo "you entered $x "
+read -p "Enter another number : " y
+echo "you entered $y "
+while [ $x -lt $y ]
+do
+	echo "$a"
+	a=`seq $x $y`
+	
+done
+
